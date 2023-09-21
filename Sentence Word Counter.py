@@ -1,14 +1,14 @@
 sentence=input("Say something.")
+WordNum=0 
 
 def wordsInSentence(sentence):
-    Words=sentence.split()
-    WordNum=0
+    Words=sentence.split( )
+    WordNum=len(Words)
 
-    for i in range(Words):
-        WordNum += 1
     
-
+    return WordNum
 
 wordsInSentence(sentence)
 
-print("there are "+WordNum" words in this sentence.")
+print(WordNum)
+print(("There are ") ((WordNum)) ("in this sentence."))
