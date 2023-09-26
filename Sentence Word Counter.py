@@ -5,4 +5,4 @@ WordNum=len(Words)
 
 print(sentence)
 print(WordNum)
-print(("There are ") ((WordNum)) ("in this sentence."))
+print("There are "+str(WordNum)+" words in this sentence.")
