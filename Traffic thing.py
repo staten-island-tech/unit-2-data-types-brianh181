@@ -1,0 +1,1 @@
+Eastbound=input("Eastbound: yes or not? ")
