@@ -12,7 +12,7 @@ def listFactors(number1,number2):
         GreaterNumber=number2
 
     for i in range(GreaterNumber):
-        if number1 % checkFactorNumber and number2 % checkFactorNumber == 0:
+        if number1 % checkFactorNumber == 0 and number2 % checkFactorNumber == 0:
             Common_factors.append(checkFactorNumber)
         checkFactorNumber += 1
 
