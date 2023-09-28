@@ -14,6 +14,7 @@ def listFactors(number1,number2):
     for i in range(GreaterNumber):
         if number1 % checkFactorNumber == 0 and number2 % checkFactorNumber == 0:
             Common_factors.append(checkFactorNumber)
+            print(checkFactorNumber)
         checkFactorNumber += 1
 
     print("The common factors for "+str(number1)+" and "+str(number2)+" are "+str(Common_factors)+".")
